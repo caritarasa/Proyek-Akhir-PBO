@@ -1,0 +1,28 @@
+LIBRARY YANG DIPERLUKAN
+=======================
+
+Anda perlu mendownload library berikut dan meletakkannya di folder lib/:
+
+1. MySQL Connector/J
+   - File: mysql-connector-java-8.0.33.jar
+   - Download: https://dev.mysql.com/downloads/connector/j/
+   - Pilih "Platform Independent" dan download ZIP
+   - Extract dan ambil file .jar nya
+
+2. JDatePicker
+   - File: jdatepicker-1.3.4.jar
+   - Download: https://github.com/JDatePicker/JDatePicker/releases
+   - Download jdatepicker-1.3.4.jar
+
+STRUKTUR FOLDER SETELAH DOWNLOAD:
+philosofit-mysql/
+├── lib/
+│   ├── mysql-connector-java-8.0.33.jar
+│   └── jdatepicker-1.3.4.jar
+├── src/
+└── ...
+
+CATATAN:
+- Tanpa library ini, aplikasi tidak akan bisa dijalankan
+- Pastikan nama file sesuai dengan yang tertulis di atas
+- Jika menggunakan versi yang berbeda, sesuaikan nama file di script compile
